@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".MainActivity2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textSize="40sp"
+                android:textColor="@color/white"
+                android:text="Lorem Ipsum"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut pellentesque mauris, nec interdum turpis. Morbi maximus neque in interdum interdum. Donec sit amet lorem sed ex pharetra efficitur eget id nisl. Sed sit amet interdum erat. Sed commodo pulvinar ipsum, sed laoreet arcu rhoncus id. Suspendisse a justo tortor. Duis nec odio hendrerit, venenatis arcu iaculis, aliquam massa. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus sollicitudin justo eu velit mollis sodales. Donec venenatis turpis ut leo pharetra, vitae dictum purus sodales. Sed at viverra velit. Donec faucibus mi ut mauris iaculis placerat. Aliquam erat volutpat. Fusce pharetra ipsum in ante varius, in dapibus eros vulputate." />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:text="Vivamus at magna ut velit cursus suscipit. Sed faucibus at mauris at volutpat. Donec nec egestas velit. Donec nec tempus nisl, eget bibendum enim. Pellentesque elit quam, pellentesque vel leo at, vehicula imperdiet quam. Vivamus luctus nulla quis tempus molestie. Vestibulum tincidunt metus non elit commodo bibendum. Aliquam id tincidunt orci, condimentum lobortis sem. Donec vulputate eget arcu eu vehicula."/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:onClick="moveToBio"
+                android:backgroundTint="#B8B8B8"
+                android:textColor="@color/black"
+                android:text="Biodata Mahasiswa"
+                tools:ignore="OnClick" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:onClick="backToHome"
+                android:backgroundTint="#B8B8B8"
+                android:textColor="@color/black"
+                android:text="Kembali ke beranda"
+                tools:ignore="OnClick" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
